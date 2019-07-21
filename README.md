@@ -7,7 +7,7 @@ By Ravidu Liyanage
 
 ## Summary
 The analog value from the sensor is converted to distance in centimeters, by using a sigmoidal function, 
-- *distance = 2.6 * POW((irVal+20.6)/(1011-irVal), (float)1/3)
+- *distance = 2.6 * POW((irVal+20.6)/(1011-irVal), (float)1/3)*
 
 Constants were obtained from a graph that was plotted by comparing the analog value from the sensor and the actual distance.
 
@@ -19,7 +19,7 @@ Constants were obtained from a graph that was plotted by comparing the analog va
 - **float distance = sensor_name.getDistance();**
 
 ## Examples
-- An example is provided with the library:
+An example is provided with the library:
 
 - **IRSensorTest.ino**
 
