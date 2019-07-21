@@ -7,6 +7,7 @@ By Ravidu Liyanage
 ## Summary
 The analog value from the sensor is converted to distance in centimeters, by using a sigmoidal function, 
 - *distance = 2.6 * POW((irVal+20.6)/(1011-irVal), (float)1/3)*
+
 constants were obtained from a graph that was plotted by comparing the analog value from the sensor and the actual distance.
 
 ## Usage
