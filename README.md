@@ -23,6 +23,6 @@ An example is provided with the library:
 
 - **IRSensorTest.ino**
 
-This example shows how to use the library with the sensors to output distance in centimeters to serial monitor.
+  This example shows how to use the library with the sensors to output distance in centimeters to serial monitor.
 
 **Important Note: Sensor was tested with the use of white surface. Results may differ with the use of different surfaces with different colors and reflectivity.**
